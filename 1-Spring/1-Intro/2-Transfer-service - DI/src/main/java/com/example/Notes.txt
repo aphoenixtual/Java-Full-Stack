@@ -1,0 +1,5 @@
+Compared to the first project and this project,
+Now is still good because earlier we created this JDBC instance on every transfer.
+But this time we created JDBC instance only one time in the booting phase, and
+we injected up with this dependency to this dependent.
+And the two transfers now happens successfully.
