@@ -4,4 +4,4 @@ And people know slowly not degrading this XML based configuration because
 It's the example document, so in the XML document expressing know any dynamic configuration is very difficult.
 plus
 even a very small Mark up mistake called so,
-Passing this exam and document, Will win trouble.
+Passing this exam and document will give trouble.
