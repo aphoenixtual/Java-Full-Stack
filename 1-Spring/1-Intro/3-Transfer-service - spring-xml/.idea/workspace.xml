@@ -4,19 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d27e944-d91d-4e10-b4b3-dcb3e5cd9d8a" name="Changes" comment="spring microservices" />
+    <list default="true" id="047c6ae1-cca8-4abd-90dd-b2a813b6e96d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../1-Transfer-service/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1-Transfer-service/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2-Transfer-service - DI/src/main/java/com/example/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2-Transfer-service - DI/src/main/java/com/example/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2-Transfer-service - DI/src/main/java/com/example/Notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../2-Transfer-service - DI/src/main/java/com/example/Notes.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-        <option value="Interface" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
@@ -24,25 +20,31 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2EgGA8bj9cTldbrGBYBsDK0gFFi" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
+  <component name="ProjectId" id="2F05bUpp65Uo5BdIEGv1OXgLBXj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Facets" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.Application" />
-      <module name="1-Transfer-service" />
+      <module name="4-Transfer-service - spring-annotation" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.example.*" />
@@ -60,34 +62,24 @@
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpringBeansView">
+    <option name="showImplicitBeans" value="false" />
+    <option name="showInfrastructureBeans" value="false" />
+    <option name="showDoc" value="false" />
+    <option name="showGraph" value="false" />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="5d27e944-d91d-4e10-b4b3-dcb3e5cd9d8a" name="Changes" comment="" />
-      <created>1663009670233</created>
+      <changelist id="047c6ae1-cca8-4abd-90dd-b2a813b6e96d" name="Changes" comment="" />
+      <created>1663616232787</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1663009670233</updated>
-      <workItem from="1663009671357" duration="1308000" />
-      <workItem from="1663095950835" duration="596000" />
-      <workItem from="1663430452579" duration="25000" />
-      <workItem from="1663434951720" duration="605000" />
-      <workItem from="1663593638917" duration="12321000" />
+      <updated>1663616232787</updated>
+      <workItem from="1663616234160" duration="1561000" />
+      <workItem from="1663617824320" duration="4030000" />
+      <workItem from="1663674984582" duration="4154000" />
+      <workItem from="1663679190486" duration="52000" />
     </task>
-    <task id="LOCAL-00001" summary="spring microservices">
-      <created>1663607359473</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1663607359473</updated>
-    </task>
-    <task id="LOCAL-00002" summary="spring microservices">
-      <created>1663607623921</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1663607623921</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,9 +95,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="spring microservices" />
-    <option name="LAST_COMMIT_MESSAGE" value="spring microservices" />
   </component>
 </project>

@@ -4,4 +4,8 @@ And people know slowly not degrading this XML based configuration because
 It's the example document, so in the XML document expressing know any dynamic configuration is very difficult.
 plus
 even a very small Mark up mistake called so,
-Passing this exam and document, Will win trouble.
+Passing this exam and document, Will give trouble.
+
+one of the main advantages of the XML based configuration is
+Centralising your configuration data, that is the only one advantage we have with this.
+And otherwise OK, we don't have any other advantages of this XML based configuration.

@@ -54,7 +54,7 @@ public class Application {
          This is one of the worst way.
          */
         System.out.println("-".repeat(150));
-        transferService = null;
+        applicationContext.close();
         System.out.println("-".repeat(150));
 
     }
