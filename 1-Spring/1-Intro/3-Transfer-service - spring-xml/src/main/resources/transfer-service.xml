@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context" xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+
+    <!-- bean definitions here -->
+    <!--spring internally passing this XML document and
+     using Reflection API as you need to know how spring works behind the scenes. It uses the reflection API.
+      Through Reflection API it loads 30 no this class and it will create the instance of this class that inserts OK.
+      We call it as a bean-->
+
+    <bean id="accountRepository" class="com.example.repository.JdbcAccountRepository"></bean>
+
+    <bean id="txrService" class="com.example.service.TransferServiceImpl">
+        <!--we need to say to the Spring Framework while creating this transfer service bean.
+            inject the account repository. -->
+        <constructor-arg ref="accountRepository" />
+    </bean>
+
+</beans>
