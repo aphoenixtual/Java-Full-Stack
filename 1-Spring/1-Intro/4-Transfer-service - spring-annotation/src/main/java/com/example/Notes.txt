@@ -4,6 +4,8 @@ In the XML document expressing any dynamic configuration is very difficult.
 even a very small Mark up mistake called so,
 Passing this exam and document, Will give trouble.
 
+Data source Bean injected to repo, repo injected to service and still the application is working.
+
 one of the main advantages of the XML based configuration is
 Centralising your configuration data, that is the only one advantage we have with this.
 And otherwise we don't have any other advantages of this XML based configuration.
