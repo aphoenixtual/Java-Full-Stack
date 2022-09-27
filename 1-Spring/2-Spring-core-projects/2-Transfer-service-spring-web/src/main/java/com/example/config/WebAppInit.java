@@ -18,6 +18,12 @@ public class WebAppInit implements WebApplicationInitializer {
         context.register(TransferServiceConfiguration.class);
 
         // Register and map the dispatcher servlet
+        /*
+        I'm doing this servlet registration.
+        And one of the ready made servlet given by the Spring Framework to assist can be dispatcher servlet.
+        And one good thing about this dispatcherservlet is this dispatcherservlet process,
+        every incoming request using his spring beans.
+         */
         ServletRegistration.Dynamic dispatcher = servletContext.addServlet("dispatcher",new DispatcherServlet(context));
         dispatcher.setLoadOnStartup(0);
         dispatcher.addMapping("/");

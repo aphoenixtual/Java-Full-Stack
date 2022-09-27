@@ -4,19 +4,29 @@ import com.example.web.payload.Status;
 import com.example.web.payload.TransferRequest;
 import com.example.web.payload.TransferResponse;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import com.example.service.TransferService;
 
 @RestController
 public class TransferController {
 
-    @Autowired
+
     private TransferService transferService;
 
-    @PostMapping(value = "/api/txr")
+    @Autowired
+    public TransferController(TransferService transferService) {
+        this.transferService = transferService;
+    }
+
+
+
+    @RequestMapping(
+            value = "/transfer",
+            method = RequestMethod.POST,
+            consumes = {"application/json"},
+            produces = {"application/json"}
+    )
     public TransferResponse doTransfer(@RequestBody TransferRequest request) {
         transferService.transfer(request.getAmount(), request.getFromAccNum(), request.getToAccNum());
         TransferResponse response = new TransferResponse();

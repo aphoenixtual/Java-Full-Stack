@@ -1,6 +1,6 @@
 
-create database testdb;
-use testdb;
+create database bankdb;
+use bankdb;
 
 create table Account (
  number varchar(12) not null,

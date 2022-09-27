@@ -1,13 +1,12 @@
 package com.example.repository;
 
 
-import com.example.model.Account;
+import com.example.entity.Account;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Repository;
 
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
-import javax.sql.DataSource;
 
 @Repository
 @Slf4j

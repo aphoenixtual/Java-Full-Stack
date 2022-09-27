@@ -5,8 +5,8 @@ services:
     image: mysql
     restart: always
     environment:
-      MYSQL_ROOT_PASSWORD: root
-      MYSQL_DATABASE: testdb
+      MYSQL_ROOT_PASSWORD: Namonamo@311
+      MYSQL_DATABASE: bankdb
     ports:
       - "3306:3306"
 

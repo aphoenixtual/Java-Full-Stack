@@ -1,7 +1,7 @@
 package com.example.service;
 
 
-import com.example.model.Account;
+import com.example.entity.Account;
 import com.example.repository.AccountRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
