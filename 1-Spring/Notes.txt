@@ -1,0 +1,32 @@
+When we used to spring ORM and we must write the data source configuration again...
+This data source configuration discount not good right? Because we never know this property is not changes and
+you know we have to change this code in the Java files but it's not a good practice looking hard coding this configuration properties.
+We should never hard code this configuration properties.
+
+
+we should know....
+JPa need this local container manager factory Bean transaction manager bean so,
+I can see a lot of new manual configuration for each spring projects.
+
+we should know if I'm using spring MVC I should register OK this dispatcherservlet and we should load this.
+Dispatches several construct up and we need to map every you know incoming URLs to the servlet
+
+These are painful activities while working I'm saying spring is very great framework, no doubt on that.
+But if you want to get that greatness you need to do that, you know.
+This activities
+
+
+Developers again need to spend their time in these three layers...
+1)Repository
+2)Service
+3)Web
+
+Spring boot will provide you ready configuration like I'm saying guys spring boot is nothing but.
+It's the only configuration tool.
+There is no any difference between spring and spring boot.
+While using spring as a developer, we need to write,
+you know some configuration to consume those projects. OK in your applications.
+
+spring boot working 90 percentage. I can say automates on your configuration.
+Maybe 10 percentage. OK, you need to feed your own configurations.
+
