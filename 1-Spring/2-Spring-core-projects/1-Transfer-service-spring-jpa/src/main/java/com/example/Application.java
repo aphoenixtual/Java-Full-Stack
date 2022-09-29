@@ -17,7 +17,7 @@ public class Application {
 
         // use phase
         TransferService transferService=applicationContext.getBean("txrService",TransferService.class);
-        transferService.transfer(1000.00, "2", "1");
+        transferService.transfer(1000.00, "1", "2");
 //        applicationContext.close();
 //        transferService.transfer(1000.00, "2", "1");
 

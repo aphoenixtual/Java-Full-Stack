@@ -1,0 +1,24 @@
+Spring boot internally uses...
+One of the spring four annotation called @ConditionalOn
+if that condition is true, abating if the condition is true.
+then it includes the configuration.
+
+
+There are so many ways to create the spring boot applications...
+
+1)So from the spring initializer website you can fill this form then
+you can create the springboard project this is way one
+
+2)If you're a eclipse developer.
+  you can install the spring plugin
+  it's called SDS Spring tool set. Or you can download the STS itself.
+
+3)In IntelliJ itself
+
+
+Did you see conditional on property? So springboard somewhere no saw this property is present spring dot AOP dot auto equal to true.
+So because of this property and spring, you know applied. I mean spring boot up like this. AOP configuration automatically
+for us AOP configuration automatically know applied while creating this context. That's why it is called auto configuration.
+
+
+behind the scenes so spring is using Hikari. Hikari means it's a connection pool.
