@@ -7,8 +7,8 @@ Always remember any project you develop split the project into three phases.
 We just call initialization phase are boot face. This is fair spring boot comes.
 So every application should get ready to serve.
 Then application should Serve to the user and if application is no more required should get now destroyed.
-So any project you develope, any microservices, now you're going to develop in future.
-They always the case should be in these three phases.
+So any project you develope, any microservices, now you're going to develop in future...
+They always should be in these three phases.
 Mostly in the initialization phase.
 Based on an old configuration,
 Components Should be ready, right to Serve

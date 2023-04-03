@@ -35,12 +35,13 @@ design issues & performance issue
     => Smaller & Simpler
 
 2. **Open for Extension & Closed for Modification Principle**
+    (Observer design pattern is used to achieve this Solid Principle)
 
     > “Software components should be open for extension, but closed for modification”
     >
 
 3. **Liskov’s Substitution Principle**
-
+     (Strategy design pattern is using to achieve this Solid Principle)
     > “Derived types must be completely substitutable for their base types”
     >
 
