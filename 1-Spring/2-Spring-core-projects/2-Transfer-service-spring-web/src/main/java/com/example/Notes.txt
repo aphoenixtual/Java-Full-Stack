@@ -20,7 +20,7 @@ Means one of the controller will be used to transfer that request
 -------------------------------------------------------------------------
 While Using Spring Projects, Complexities
 
-=> Fingding right dependency ( .jar)
+=> Finding right dependency ( .jar)
 => Lot of manual configuration for each spring-project
 
 --------------------------------------------------------------------------
