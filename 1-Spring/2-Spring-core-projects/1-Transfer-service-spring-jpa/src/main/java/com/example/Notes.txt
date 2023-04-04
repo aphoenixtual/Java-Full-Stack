@@ -1,0 +1,16 @@
+Commands to deal with MySQL Database for this project in Windows
+
+mysql -uroot -p
+ use bankdb;
+ show tables;
+ select * from accounts;
+
+Commands to deal with MySQL Database for this project in Linux
+
+sudo systemctl start mysqld
+mysql -uroot -p
+ use bankdb;
+ show tables;
+ select * from accounts;
+
+You've to put your MySQL password in DataSourceConfiguration to get access of DB
