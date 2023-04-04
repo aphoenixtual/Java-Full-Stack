@@ -16,8 +16,19 @@ The dispatcher servlet uses the respective handler mapping.
 Configurations.
 Means one of the controller will be used to transfer that request
 
+
+-------------------------------------------------------------------------
 While Using Spring Projects, Complexities
 
 => Fingding right dependency ( .jar)
 => Lot of manual configuration for each spring-project
 
+--------------------------------------------------------------------------
+
+AI tool that automates spring configuration
+=> Spring-boot => It is nothing but a configuration tool there is not diff bw Spring and Spring-boot
+
+While using spring we need to write some configuration to consume those projects into applications but
+but Spring-boot automates 90% of configuration maybe 10% you need to feed of your own.
+
+---------------------------------------------------------------------------
