@@ -1,0 +1,9 @@
+ why we are using Spring Framework ???
+
+The thing is, your dependent object implementation class should not create dependency instance.
+So that is the dependency inversion principle, and for that OK, we are using the Spring Framework
+
+what is  java based configurations ???
+Java Based configuration means see in the Java file we are making our beans and
+ we are injecting their beans. So this is what I'm representing. Java based configurations.
+ Of course this is also backed by annotations.

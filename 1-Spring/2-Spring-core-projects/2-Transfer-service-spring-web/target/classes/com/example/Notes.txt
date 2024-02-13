@@ -1,0 +1,34 @@
+Inside that web package writing one controller...
+To process the incoming request.
+I usually create some payload objects... means how I'm going to accept my request and
+how I'm going to give the response.
+This is something called payload or model objects. Sometimes people will call them as it DTO.
+
+So my intention with every transfer you know a request comes with three parameters
+
+
+So when I deployed this particular application saying to my Tomcat by default this web application
+initialize this ...
+On startup
+So first we created the spring application context object. So we have so many logs here.
+Then using that context object, OK, we created our dispatcherservlet so henceforth OK if any request not coming...
+The dispatcher servlet uses the respective handler mapping.
+Configurations.
+Means one of the controller will be used to transfer that request
+
+
+-------------------------------------------------------------------------
+While Using Spring Projects, Complexities
+
+=> Finding right dependency ( .jar)
+=> Lot of manual configuration for each spring-project
+
+--------------------------------------------------------------------------
+
+AI tool that automates spring configuration
+=> Spring-boot => It is nothing but a configuration tool there is not diff bw Spring and Spring-boot
+
+While using spring we need to write some configuration to consume those projects into applications but
+but Spring-boot automates 90% of configuration maybe 10% you need to feed of your own.
+
+---------------------------------------------------------------------------

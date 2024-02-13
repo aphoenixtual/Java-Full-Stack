@@ -1,0 +1,89 @@
+
+design issues & performance issue
+
+==> tight-coupling between
+    dependent & dependency object's implementation.
+
+    -> can't extend with new features easily
+
+==>  too many duplicate dependency instances
+
+    -> too much resource consumption & bad responsive to end-user
+
+==> Unit-testing not possible
+
+    -> Dev / bug-fix slow
+
+ Why these issues ?
+    -> dependent component managing its own dependency component
+
+ Solution:
+    ->Don't create (dependency object independent of home),
+    ->Don't lookup on factory 'Factory Design Pattern' coz
+ (limitation with factory only:
+     -> factory location tight-coupling)
+
+    -> Inject through third party [ Inversion of Control (IOC) eg:(HR head (SD))]
+       - Dependency Injection
+       - AOP
+-----------------------------------------------------------------------
+ Object oriented principles a.k.a S.O.L.I.D principles
+
+1. **Single Responsibility Principle**
+
+    > “One class should have one and only one responsibility”
+    => Smaller & Simpler
+
+2. **Open for Extension & Closed for Modification Principle**
+    (Observer design pattern is used to achieve this Solid Principle)
+
+    > “Software components should be open for extension, but closed for modification”
+    >
+
+3. **Liskov’s Substitution Principle**
+     (Strategy design pattern is using to achieve this Solid Principle)
+    > “Derived types must be completely substitutable for their base types”
+    >
+
+4. **Interface Segregation Principle**
+
+    > “Clients should not be forced to implement unnecessary methods which they will not use”
+    >
+
+5. **`Dependency Inversion Principle / Inversion of Control ( IOC )`**
+
+    > “Depend on abstractions, not on concretions”
+    >
+
+
+-----------------------------------------------------------------------
+
+design issues, even we have and performance issue also in this program.
+
+When I said design issue?
+The code you know will be in trouble for future maintenance that is called this an issue.
+
+In this program we know we have a one design issue. In the design issue is going to be
+There is a type coupling between the dependent and personal dependency object implementation.
+
+if I'm doing  thousands or millions of transfers between that account and
+every time now we are creating this new instance and we are not discarding it
+means right now in this program this repository instance is a kind of anticipate form.
+So We are using this instance only one time and then we are ignoring it.
+You know in Java one of the costliest to process its campaign.
+You know not only in Java everywhere object creation is the costliest process.
+
+the issue is going to be here if you're creating too many objects.
+You'll be into this problem because too much resource consumption is bad,
+especially if your application is going to production environment
+
+there is one reason.
+We're getting all these issues in this program.
+The reason is...
+Dependent component itself, Creating its own dependency.
+So here dependent component managing its own dependency.
+When I say managing dependent component itself, creating its own dependency
+So means dependent object creating its own dependency, managing the life of the dependency on its own
+
+So here we need one best solution to come all these issues
+We need one third party and that third party should inject the dependency and what we required, so inject through third party.
